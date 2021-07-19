@@ -1,0 +1,230 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+border-bottom: 1px solid black;
+margin-bottom: 25px;
+}
+
+.header .wrapper{
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+.rowCenter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button{
+    display: flex;
+    height: 50px;
+}
+.border{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.main .wrapper{
+    min-height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: auto;
+}
+.showonline{
+    width: 25%;
+    border-right: 0;
+}
+.numberOfOline{
+    border-bottom: 1px solid black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white
+}
+.chatContent{
+    width: 75%;
+}
+.slider-button{
+    height: 50px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction:row;
+    
+}
+.slider-content{
+    height: 375px;
+    border-bottom: 1px solid black;
+}
+.numberOfOline p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.inputField input{
+    height: 150px;
+    width: 100%;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+.slider-button button{
+    width: 257px;
+}
+
+.slider-button button:focus{
+    background-color: #F5F94D;
+}
+.slider-button button:hover{
+    background-color: #F5F94D;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:#F5F94D;
+}
+.button button:hover{
+    background-color: #F5F94D;
+}
+.nameInOnline-person p{
+    text-align: center;
+}
+.inputField{
+    display: flex;
+}
+.decoration-button{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.decoration-button button{
+    height: 50px;
+}
+.formForInput{
+    width: 600px;
+}
+.send-button{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.send-button button{ 
+    width: 130px;
+    height: 50px;
+}
+.send-button button:hover{
+    background-color: #F5F94D;
+}
+.decoration-button button:hover{
+    background-color: #F5F94D;
+}
+.formForInput{
+    margin: 10px;
+}
+.formForInput form{
+    border: 1px solid black;
+}
+.footer .wrapper{
+    width: 1030px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login_modal{
+    display: none;
+    padding-top: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: rgba(153, 155, 51, 0.7);
+}
+
+.login_form{
+    margin: 0 auto;
+    width: 370px; 
+    background-color: #f2eee2;
+    padding-bottom: 40px;
+}
+
+
+.login_inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login_input:last-child{
+    margin-top: 7px;
+}
+
+.login_input{
+    width: 200px;
+    height: 20px;
+}
+
+.login_btn{
+    width: 200px;
+    height: 20px;
+    background-color: rgb(193, 193, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: rgb(127, 127, 184) 1px solid;
+    cursor: pointer;
+}
+
+.login_btn:active{
+    background-color: #e1a8eb;
+    opacity: 1;
+}
+
+.login_btn:hover{
+    opacity: 0.8;
+}
+
+.sign_btn{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(193, 193, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: rgb(127, 127, 184) 1px solid;
+    cursor: pointer;
+}
+
+.sign_btn:active{
+    background-color: #e1a8eb;
+    opacity: 1;
+}
+
+.sign_btn:hover{
+    opacity: 0.8;
+}
+.logo_login_form{
+    display: block;
+    margin: auto;
+}
